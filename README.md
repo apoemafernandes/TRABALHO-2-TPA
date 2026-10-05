@@ -1,12 +1,12 @@
 # Trabalho 2 - Árvores Binárias e Análise de Complexidade
 
 ## Descrição
-Implementação de uma biblioteca genérica de Árvores Binárias de Busca em Java, integrada com um programa de gestão de contactos via terminal. Este projeto faz parte da disciplina de **Técnicas de Programação Avançada** e contempla a análise matemática e empírica da complexidade dos algoritmos, comparando os tempos de execução entre árvores degeneradas e árvores perfeitamente balanceadas[cite: 15, 20].
+Implementação de uma biblioteca genérica de Árvores Binárias de Busca em Java, integrada com um programa de gestão de contactos via terminal. Este projeto faz parte da disciplina de **Técnicas de Programação Avançada** e contempla a análise matemática e empírica da complexidade dos algoritmos, comparando os tempos de execução entre árvores degeneradas e árvores perfeitamente balanceadas.
 
 ## Integrantes do Grupo
-* Apoema Moreira Alves Fernandes[cite: 15]
-* Heloísa Hand[cite: 15]
-* Gabriela Demezio[cite: 15]
+* Apoema Moreira Alves Fernandes
+* Heloísa Hand
+* Gabriela Demezio
 
 ## Estrutura do Projeto
 O código-fonte está organizado nos seguintes pacotes:
@@ -16,9 +16,9 @@ O código-fonte está organizado nos seguintes pacotes:
 * `src/main/java/app/`: Domínio, aplicação principal e gerador de massa de testes (`Contato.java`, `ProgramaContatos.java`, `GeradorArquivos.java`).
 
 ## Ficheiros de Entrada (Testes Empíricos)
-Para os testes de complexidade, o programa `GeradorArquivos.java` foi adaptado para gerar dois cenários distintos[cite: 20]:
-1. **Ficheiros Ordenados:** Telefones em ordem crescente para forçar a criação de árvores totalmente degeneradas (comportamento de lista $O(n)$)[cite: 20].
-2. **Ficheiros Balanceados:** Inserções calculadas com divisão de intervalos para gerar árvores perfeitamente balanceadas logo na carga (comportamento $O(\log n)$)[cite: 20].
+Para os testes de complexidade, o programa `GeradorArquivos.java` foi adaptado para gerar dois cenários distintos:
+1. **Ficheiros Ordenados:** Telefones em ordem crescente para forçar a criação de árvores totalmente degeneradas (comportamento de lista $O(n)$).
+2. **Ficheiros Balanceados:** Inserções calculadas com divisão de intervalos para gerar árvores perfeitamente balanceadas logo na carga (comportamento $O(\log n)$).
 
 O formato de cada linha do ficheiro é: `Nome,telefone` (Exemplo: `Ana Silva,12344555`).
 
