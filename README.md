@@ -180,15 +180,3 @@ Para obter um contato específico, use a **busca por telefone**, que é única n
 ## Repositório
 
 - **GitHub:** *(substitua pelo endereço do repositório do grupo)*
-
----
-
-## Uso de LLMs
-
-Durante o desenvolvimento, LLMs foram utilizadas como apoio em:
-
-- **Esclarecimento conceitual:** compreensão do comportamento de árvores degeneradas vs. balanceadas e discussão sobre o tratamento de chaves duplicadas.
-- **Depuração:** identificação do `StackOverflowError` em árvores profundas e orientação sobre a reescrita iterativa dos métodos afetados.
-- **Redação do relatório:** revisão do texto das seções de análise matemática e empírica.
-
-Todo o código final foi revisado, testado e compreendido pelos integrantes do grupo, que são responsáveis pelas decisões finais de implementação.
