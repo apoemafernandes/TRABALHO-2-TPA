@@ -13,7 +13,7 @@ O código-fonte está organizado nos seguintes pacotes:
 * `src/main/java/colecao/`: Interface base (`IColecao.java`).
 * `src/main/java/arvorebinaria/`: Biblioteca de árvores binárias (`ArvoreBinaria.java`, `ArvoreBinariaBase.java`, `NoArvore.java`).
 * `src/main/java/lista/`: Biblioteca de listas encadeadas herdada do Trabalho 1 (`ListaEncadeada.java`, `No.java`).
-* `src/main/java/app/`: Domínio, aplicação principal e gerador de massa de testes (`Contato.java`, `ProgramaContatos.java`, `GeradorArquivos.java`).
+* `src/main/java/app/`: Domínio, aplicação principal e gerador de massa de testes (`Contato.java`, `ProgramaContatos.java`, `GeradorArquivosOrdenados.java`, `GeradorArquivosBalanceados.java`).
 
 ## Ficheiros de Entrada (Testes Empíricos)
 Para os testes de complexidade, o programa `GeradorArquivos.java` foi adaptado para gerar dois cenários distintos:
