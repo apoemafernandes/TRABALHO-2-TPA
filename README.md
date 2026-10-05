@@ -25,7 +25,7 @@ O código-fonte está organizado nos seguintes pacotes:
 
 ---
 
-## Arquivos de Entrada (Testes Empíricos)
+## Arquivos de Entrada
 
 Para os testes de complexidade, foram gerados dois cenários distintos para cada tamanho de massa:
 
@@ -41,7 +41,7 @@ Bruno Lima,000049999
 
 ---
 
-## Como Compilar e Executar (Windows)
+## Como Compilar e Executar 
 
 Os comandos abaixo funcionam tanto no **PowerShell** quanto no **Prompt de Comando (CMD)**. Execute-os a partir da pasta onde está o código-fonte do projeto.
 
