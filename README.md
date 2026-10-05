@@ -15,12 +15,12 @@ O código-fonte está organizado nos seguintes pacotes:
 * `src/main/java/lista/`: Biblioteca de listas encadeadas herdada do Trabalho 1 (`ListaEncadeada.java`, `No.java`).
 * `src/main/java/app/`: Domínio, aplicação principal e gerador de massa de testes (`Contato.java`, `ProgramaContatos.java`, `GeradorArquivosOrdenados.java`, `GeradorArquivosBalanceados.java`).
 
-## Ficheiros de Entrada (Testes Empíricos)
+## Arquivos de Entrada (Testes Empíricos)
 Para os testes de complexidade, o programa `GeradorArquivos.java` foi adaptado para gerar dois cenários distintos:
 1. **Ficheiros Ordenados:** Telefones em ordem crescente para forçar a criação de árvores totalmente degeneradas (comportamento de lista $O(n)$).
 2. **Ficheiros Balanceados:** Inserções calculadas com divisão de intervalos para gerar árvores perfeitamente balanceadas logo na carga (comportamento $O(\log n)$).
 
-O formato de cada linha do ficheiro é: `Nome,telefone` (Exemplo: `Ana Silva,12344555`).
+O formato de cada linha do ficheiro é: `Nome,telefone` (Exemplo: `Ana Silva,123445555`).
 
 ## Como Compilar e Executar
 
