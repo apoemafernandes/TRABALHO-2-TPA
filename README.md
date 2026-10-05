@@ -148,27 +148,6 @@ Telefone é único no domínio, mas o **nome não**. Como o programa mantém dua
 - A busca por **telefone** sempre retorna o contato exato (chave única).
 - A busca por **nome** retorna **um** dos contatos com aquele nome — o primeiro encontrado descendo pela árvore. Esse comportamento é o aceito pela especificação do trabalho.
 
-### Implementações iterativas
-
-Os métodos `remover`, `altura` e `caminharEmOrdem` foram implementados de forma **iterativa** (com pilha/fila explícitas). A versão recursiva estoura a pilha (`StackOverflowError`) em árvores degeneradas com dezenas de milhares de nós — exatamente o cenário testado nos arquivos ordenados.
-
----
-
-## Análise de Complexidade (Resumo)
-
-| Método | Árvore balanceada | Árvore degenerada |
-|---|---|---|
-| `adicionar` | O(log n) | O(n) |
-| `pesquisar` | O(log n) | O(n) |
-| `remover`   | O(log n) | O(n) |
-| `quantidadeNos` | O(1) | O(1) |
-| `altura` / caminhamentos | O(n) | O(n) |
-
-- **Carga a partir do arquivo ordenado:** O(n²) — cada inserção percorre toda a cadeia existente.
-- **Carga a partir do arquivo balanceado:** O(n log n) — cada inserção desce por log n níveis.
-
----
-
 ## Observações sobre a Busca por Nome
 
 Como o arquivo possui apenas 200 combinações possíveis de nome (20 nomes × 10 sobrenomes), mas pode ter dezenas de milhares de contatos, cada nome aparece muitas vezes. Ao buscar por nome, a árvore retorna **o primeiro contato daquele nome encontrado na descida** — tipicamente o mais "alto" na árvore (primeiro inserido), e não necessariamente o último do arquivo.
